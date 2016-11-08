@@ -11,10 +11,8 @@ fieldset{color: blue;border: 0.5em double}
 <form action= "Formulaire.php" method="post" enctype="application/x-www-form-urlencoded">
 	<fieldset>
 		<legend><b>Infos</b></legend>
-		Nom : <input type="text" name="nom" size="40"  value="votre nom" />
-		</br>
-		Prenom : <input type="text" name="prenom" size="40"  value="votre prenom" />
-		</br>
+		Nom : <input type="text" name="nom" size="40"  value="votre nom" onfocus="this.value=''"></br>
+		Prenom : <input type="text" name="prenom" size="40"  value="votre prenom" onfocus="this.value=''"></br>
 		Debutant : <input type="radio" name="niveau" value="debutant"  />
 		Expert : <input type="radio" name="niveau" value="expert" /></br>
 		<input type="reset" value="Effacer">
